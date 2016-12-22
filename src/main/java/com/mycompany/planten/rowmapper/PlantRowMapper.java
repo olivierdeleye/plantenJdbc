@@ -1,8 +1,9 @@
 /*
  * Class PlantRowMapper to map database record to Plant Object.
  */
-package com.mycompany.planten.po;
+package com.mycompany.planten.rowmapper;
 
+import com.mycompany.planten.po.Plant;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import org.springframework.jdbc.core.RowMapper;

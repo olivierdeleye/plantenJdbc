@@ -6,7 +6,7 @@
 package com.mycompany.planten.dao;
 
 import com.mycompany.planten.po.Plant;
-import com.mycompany.planten.po.PlantRowMapper;
+import com.mycompany.planten.rowmapper.PlantRowMapper;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -145,9 +145,7 @@ public class PlantDao {
         return planten;      
     }
     
+    // Specific query TEST
     
-    
-    
-    
-    
+  
 }
